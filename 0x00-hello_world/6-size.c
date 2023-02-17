@@ -2,7 +2,9 @@
 /**
  * main - compute sizes of various data types
  *
- * Return : zero
+ * Description : Print different file sizes
+ *
+ * Return :0(success)
  */
 int main(void)
 {
