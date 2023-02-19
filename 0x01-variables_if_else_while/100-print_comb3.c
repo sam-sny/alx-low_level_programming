@@ -6,17 +6,26 @@
  */
 int main(void)
 {
-int i;
-for (i = 0; i <= 99; i++)
+int i, j;
+i = 48;
+j = 48;
+while (i < 58)
 {
-putchar((i / 10) + '0');
-putchar((i % 10) + '0');
-if (i == 99)
-break;
-putchar(',');
-putchar(' ');
+j = i + 1;
+while (j < 58)
+{
+putchar(i);
+putchar(j);
+if (i < 56 || j < 57)
+{
+putchar(44);
+putchar(32);
 }
-putchar('\n');
+j++;
+}
+i++;
+}
+putchar(10);
 return (0);
 }
 
