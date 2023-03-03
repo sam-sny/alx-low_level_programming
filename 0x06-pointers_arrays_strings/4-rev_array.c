@@ -22,7 +22,7 @@ int counter = 0;
 while (counter < n / 2)
 {
 /* if you have an array of n elements the last element is at n - 1 */
-(a + counter, a + (n - counter - 1));
+swap_int(a + counter, a + (n - counter - 1));
 counter++;
 }
 }
