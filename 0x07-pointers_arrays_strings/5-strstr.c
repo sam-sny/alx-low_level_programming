@@ -1,5 +1,6 @@
 #include "main.h"
 #include<stdlib.h>
+
 #define true 1
 #define false 0
 #define bool int
@@ -40,10 +41,9 @@ break;
 }
 haystack++;
 }
-if (found)
+if (!found)
 {
 return (start);
 }
 return (NULL);
 }
-
