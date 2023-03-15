@@ -2,7 +2,9 @@
 /**
  * main - a program that prints a line (printf)
  *
- * Return:0(success)
+ * Description: Prints "with proper grammer" statement
+ *
+ * Return: 0 (success)
  */
 int main(void)
 {
