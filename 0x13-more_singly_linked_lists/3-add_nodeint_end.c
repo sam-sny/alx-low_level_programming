@@ -16,7 +16,7 @@ return (NULL);
 newnode->n = n;
 newnode->next = NULL;
 if (*head == NULL)
-*head == newnode;
+*head = newnode;
 else
 {
 temp = *head;

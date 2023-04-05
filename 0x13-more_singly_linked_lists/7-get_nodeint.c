@@ -1,4 +1,4 @@
-#include<stdlib>
+#include<stdlib.h>
 #include "lists.h"
 /**
  * *get_nodeint_at_index - returns the nth node of a linked list
@@ -14,7 +14,7 @@ for (count = 0; currentnode != NULL; count++)
 {
 if (count == index)
 return (currentnode);
-currentnode = current->next;
+currentnode = currentnode->next;
 }
 return (NULL);
 }
